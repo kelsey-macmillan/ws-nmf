@@ -1,0 +1,464 @@
+SS NMF - 0.1
+Topic coverage: 0.744444444444
+Current loss is: 5.13832650014e-06
+Current loss is: 4.96051183096e-06
+Current loss is: 4.85203562715e-06
+Current loss is: 4.77067334716e-06
+Current loss is: 4.71134512564e-06
+Current loss is: 4.66749734221e-06
+Current loss is: 4.63485331237e-06
+Current loss is: 4.60910006289e-06
+Current loss is: 4.58829328179e-06
+Current loss is: 4.5716773973e-06
+Current loss is: 4.55836251676e-06
+Current loss is: 4.5474202436e-06
+Current loss is: 4.53816839093e-06
+Current loss is: 4.53026040855e-06
+Current loss is: 4.5234413033e-06
+Current loss is: 4.51749919587e-06
+Current loss is: 4.51229739055e-06
+Current loss is: 4.50774268384e-06
+Current loss is: 4.50371238593e-06
+Current loss is: 4.50005874691e-06
+Current loss is: 4.49668719798e-06
+Current loss is: 4.49356017125e-06
+Current loss is: 4.49066622737e-06
+Current loss is: 4.48800828699e-06
+Current loss is: 4.48557583166e-06
+Current loss is: 4.48333009825e-06
+Current loss is: 4.48123451959e-06
+Current loss is: 4.47925463007e-06
+Current loss is: 4.47738932696e-06
+Current loss is: 4.47560719745e-06
+Average similarity: 0.0675530563191
+[(0.263, u'gold', u'gold,ton,ounce'),
+ (0.241, u'cocoa', u'cocoa,buffer,icco'),
+ (0.227, u'palm-oil', u'palm,oil,tonne'),
+ (0.226, u'sugar', u'sugar,tonne,trader'),
+ (0.205, u'cotton', u'cotton,bale,crop'),
+ (0.204, u'rubber', u'rubber,price,shortage'),
+ (0.199, u'coffee', u'coffee,quota,colombia'),
+ (0.19, u'wheat', u'wheat,tonne,department'),
+ (0.181, u'jobs', u'unemployment,workforce,registered'),
+ (0.154, u'gnp', u'growth,pct,economic'),
+ (0.146, u'cpi', u'pct,inflation,february'),
+ (0.145, u'dlr', u'dollar,yen,japan'),
+ (0.144, u'trade', u'trade,japan,said'),
+ (0.14, u'nat-gas', u'gas,natural,oil'),
+ (0.137, u'soybean', u'soybean,tonne,taiwan'),
+ (0.136, u'bop', u'billion,deficit,surplus'),
+ (0.135, u'iron-steel', u'steel,price,product'),
+ (0.134, u'interest', u'rate,pct,bank'),
+ (0.127, u'ship', u'gulf,iran,iranian'),
+ (0.123, u'carcass', u'beef,round,cut'),
+ (0.117, u'barley', u'tonne,maize,ecus'),
+ (0.116, u'tin', u'tin,agreement,country'),
+ (0.113, u'alum', u'aluminium,credit,aluminum'),
+ (0.113, u'crude', u'oil,opec,bpd'),
+ (0.111, u'corn', u'corn,canadian,duty'),
+ (0.109, u'grain', u'grain,soviet,tonne'),
+ (0.108, u'copper', u'mine,fire,miner'),
+ (0.108, u'orange', u'orange,gallon,yield'),
+ (0.099, u'money-supply', u'billion,dlrs,rose'),
+ (0.094, u'veg-oil', u'tax,oil,would'),
+ (0.091, u'ipi', u'pct,december,industrial'),
+ (0.088, u'l-cattle', u'cattle,feed,weight'),
+ (0.086, u'heat', u'heating,oil,exxon'),
+ (0.083, u'money-fx', u'stg,money,bank'),
+ (0.075, u'yen', u'miyazawa,paris,yen'),
+ (0.074, u'rice', u'rice,indonesia,government'),
+ (0.069, u'zinc', u'copper,zinc,pound'),
+ (0.069, u'pet-chem', u'dow,chemical,increase'),
+ (0.063, u'fuel', u'barrel,fuel,oil'),
+ (0.054, u'wpi', u'february,january,index'),
+ (0.054, u'reserves', u'billion,franc,reserve'),
+ (0.053, u'acq', u'said,share,company'),
+ (0.053, u'tea', u'pakistan,tea,import'),
+ (0.052, u'livestock', u'pork,american,producer'),
+ (0.051, u'rand', u'rand,inflation,south'),
+ (0.038, u'sorghum', u'acre,usda,payment'),
+ (0.033, u'rape-oil', u'cargo,tonne,india'),
+ (0.032, u'nickel', u'output,tonne,mining'),
+ (0.031, u'lumber', u'credit,guarantee,ccc'),
+ (0.031, u'housing', u'unit,gasoline,shell')]
+Numer of topics resolved: 28
+29
+EC SUGAR TENDER HARD TO PREDICT - LONDON TRADE The outcome of today ' s European Community ( EC ) white sugar tender is extremely difficult to predict after last week ' s substantial award of 102 , 350 tonnes at the highest ever rebate of 46 . 864 European currency units ( Ecus ) per 100 kilos , traders said . Some said they believed the tonnage would probably be smaller , at around 60 , 000 tonnes , but declined to give a view on the likely restitution . Last week , the European Commission accepted 785 , 000 tonnes of sugar into intervention by operators protesting about low rebates . This might be a determining factor in today ' s result , they added .
+Labels:
+sugar
+Topics:
+(u'tonne,maize,ecus', 0.19903198128517904)
+(u'sugar,tonne,trader', 0.31734807694343409)
+38
+NIPPON STEEL DENIES CHINA SEEKING JAPANESE PLANTS Nippon Steel Corp & lt ; NSTC . T > denied local newspaper reports that China has been seeking to buy steel plants from Japanese firms which plan to suspend output under the recently announced rationalisation program . The Mainichi Shimbun quoted Nippon Steel as saying that China ' s State Planning Commission and some Chinese firms have asked Japanese makers to sell them steel works and rolling mills to expand steelmaking cheaply . It named no sources . A Nippon Steel spokesman told Reuters that China has made no such official request , and the company was not considering such sales at the moment . But Mainichi quoted Nippon Steel officials as saying if prices are reasonable , they would export their used mills to China . The paper said China ' s crude steel output totalled 52 mln tonnes in calendar 1986 and that it plans to increase to 80 mln by 1996 . Japan ' s steel industry rationalisation plan is aimed at cutting production capacity sharply over the next few years .
+Labels:
+acq
+Topics:
+(u'steel,price,product', 0.35324181204868094)
+13
+CHINA INDUSTRIAL OUTPUT RISES IN FIRST QUARTER China ' s industrial output rose 14 . 1 pct in the first quarter of 1987 against the same 1986 period , the People ' s Daily said . Its overseas edition said the growth rate , which compares with a target of seven pct for the whole of 1987 , was " rather high " but the base in the first quarter of 1986 was on the low side . Industrial output grew 4 . 4 pct in the first quarter of 1986 . It said China ' s industrial production this year has been normal but product quality and efficiency need further improvement . It gave no further details .
+Labels:
+ipi
+Topics:
+(u'pct,december,industrial', 0.1517180431383473)
+(u'quarter,first,earnings', 0.093691906564174171)
+(u'output,tonne,mining', 0.12545571591454746)
+(u'china,rain,march', 0.18385155119304225)
+28
+THAI ZINC EXPORTS FALL IN MARCH Thai zinc ingot exports fell to 882 tonnes in March from 1 , 764 in February and 3 , 008 in March 1986 , the Mineral Resources Department said . A spokesman for Padaeng Industry Co Ltd , the country ' s sole exporter , attributed the decline to the company ' s lower stocks , which averaged 5 , 000 tonnes in the first quarter against 16 , 000 tonnes in late 1985 when it began exporting . The department said major buyers included China , Japan , the Philippines , South Korea , Singapore and Taiwan . Thailand exported 4 , 842 tonnes of zinc ingots during the first quarter , down from 14 , 937 a year ago .
+Labels:
+zinc
+Topics:
+(u'thailand,thai,farm', 0.22534801563060283)
+(u'copper,zinc,pound', 0.13501049646644198)
+41
+BANK OF JAPAN INTERVENES SOON AFTER TOKYO OPENING The Bank of Japan bought a small amount of dollars shortly after the opening at around 145 . 30 yen , dealers said . The central bank intervened as a medium - sized trading house sold dollars , putting pressure on the U . S . Currency , they said . The dollar was also supported by a major electrical consumer goods company , which was a speculative dollar buyer at around 145 . 25 yen , they added . The dollar opened at 145 . 33 yen against 145 . 60 / 70 in New York and 145 . 25 at the close here yesterday .
+Labels:
+dlr
+money-fx
+yen
+Topics:
+(u'dollar,yen,japan', 0.35404901257312044)
+0.2
+Topic coverage: 0.9
+Current loss is: 5.12332775704e-06
+Current loss is: 4.94897789874e-06
+Current loss is: 4.84619919728e-06
+Current loss is: 4.77718854702e-06
+Current loss is: 4.72693701013e-06
+Current loss is: 4.68767477321e-06
+Current loss is: 4.65773032586e-06
+Current loss is: 4.63521366835e-06
+Current loss is: 4.61826150874e-06
+Current loss is: 4.60536405847e-06
+Current loss is: 4.59527118503e-06
+Current loss is: 4.58706819259e-06
+Current loss is: 4.58013880724e-06
+Current loss is: 4.57408856337e-06
+Current loss is: 4.56867155984e-06
+Current loss is: 4.56375192781e-06
+Current loss is: 4.55927418598e-06
+Current loss is: 4.55525870609e-06
+Current loss is: 4.55173293821e-06
+Current loss is: 4.54867280069e-06
+Current loss is: 4.5460246909e-06
+Current loss is: 4.54371921209e-06
+Current loss is: 4.54168455798e-06
+Current loss is: 4.53985578123e-06
+Current loss is: 4.53818635018e-06
+Current loss is: 4.53664678498e-06
+Current loss is: 4.53522608914e-06
+Current loss is: 4.53392412625e-06
+Current loss is: 4.53274152753e-06
+Current loss is: 4.53167138098e-06
+Average similarity: 0.0856568459815
+[(0.274, u'gold', u'gold,ounce,mine'),
+ (0.252, u'cocoa', u'cocoa,buffer,icco'),
+ (0.248, u'sugar', u'sugar,tonne,white'),
+ (0.231, u'coffee', u'coffee,quota,ico'),
+ (0.229, u'palm-oil', u'palm,indonesia,oil'),
+ (0.223, u'cotton', u'cotton,bale,crop'),
+ (0.199, u'jobs', u'unemployment,february,workforce'),
+ (0.197, u'copper', u'copper,mine,zambia'),
+ (0.19, u'tin', u'tin,miner,strike'),
+ (0.19, u'cpi', u'february,pct,inflation'),
+ (0.179, u'carcass', u'beef,meat,japan'),
+ (0.178, u'wheat', u'wheat,tonne,department'),
+ (0.172, u'rubber', u'rubber,price,inra'),
+ (0.171, u'soybean', u'soybean,bushel,taiwan'),
+ (0.165, u'gnp', u'growth,pct,economic'),
+ (0.165, u'fuel', u'sulphur,fuel,pct'),
+ (0.164, u'iron-steel', u'steel,usx,price'),
+ (0.16, u'orange', u'orange,crop,florida'),
+ (0.16, u'rice', u'rice,tonne,thailand'),
+ (0.154, u'wpi', u'price,pct,rose'),
+ (0.152, u'corn', u'corn,canadian,canada'),
+ (0.151, u'lei', u'index,indicator,south'),
+ (0.149, u'alum', u'aluminium,aluminum,cent'),
+ (0.148, u'nat-gas', u'gas,cubic,natural'),
+ (0.147, u'barley', u'barley,tonne,export'),
+ (0.145, u'reserves', u'reserve,billion,foreign'),
+ (0.144, u'trade', u'trade,japan,japanese'),
+ (0.143, u'hog', u'ago,hog,cattle'),
+ (0.143, u'dlr', u'dollar,yen,dealer'),
+ (0.141, u'crude', u'oil,barrel,crude'),
+ (0.136, u'interest', u'rate,fed,reserve'),
+ (0.132, u'ipi', u'january,industrial,december'),
+ (0.126, u'ship', u'gulf,iran,iranian'),
+ (0.118, u'bop', u'billion,deficit,surplus'),
+ (0.102, u'grain', u'grain,soviet,crop'),
+ (0.095, u'money-supply', u'billion,dlrs,money'),
+ (0.093, u'heat', u'sun,price,heating'),
+ (0.092, u'lead', u'smelter,contract,worker'),
+ (0.091, u'l-cattle', u'cattle,head,province'),
+ (0.086, u'yen', u'yen,miyazawa,paris'),
+ (0.086, u'veg-oil', u'farm,fat,proposal'),
+ (0.086, u'livestock', u'meat,usda,department'),
+ (0.083, u'gas', u'bpd,mln,demand'),
+ (0.081, u'money-fx', u'stg,bank,money'),
+ (0.078, u'sunseed', u'rain,area,harvest'),
+ (0.072, u'oilseed', u'tonne,oilseed,week'),
+ (0.069, u'pet-chem', u'dow,chemical,pound'),
+ (0.068, u'tea', u'pakistan,tea,export'),
+ (0.064, u'housing', u'unit,january,sale'),
+ (0.062, u'coconut', u'coconut,philippine,new')]
+Numer of topics resolved: 35
+29
+EC SUGAR TENDER HARD TO PREDICT - LONDON TRADE The outcome of today ' s European Community ( EC ) white sugar tender is extremely difficult to predict after last week ' s substantial award of 102 , 350 tonnes at the highest ever rebate of 46 . 864 European currency units ( Ecus ) per 100 kilos , traders said . Some said they believed the tonnage would probably be smaller , at around 60 , 000 tonnes , but declined to give a view on the likely restitution . Last week , the European Commission accepted 785 , 000 tonnes of sugar into intervention by operators protesting about low rebates . This might be a determining factor in today ' s result , they added .
+Labels:
+sugar
+Topics:
+(u'sugar,tonne,white', 0.36118873929963952)
+38
+NIPPON STEEL DENIES CHINA SEEKING JAPANESE PLANTS Nippon Steel Corp & lt ; NSTC . T > denied local newspaper reports that China has been seeking to buy steel plants from Japanese firms which plan to suspend output under the recently announced rationalisation program . The Mainichi Shimbun quoted Nippon Steel as saying that China ' s State Planning Commission and some Chinese firms have asked Japanese makers to sell them steel works and rolling mills to expand steelmaking cheaply . It named no sources . A Nippon Steel spokesman told Reuters that China has made no such official request , and the company was not considering such sales at the moment . But Mainichi quoted Nippon Steel officials as saying if prices are reasonable , they would export their used mills to China . The paper said China ' s crude steel output totalled 52 mln tonnes in calendar 1986 and that it plans to increase to 80 mln by 1996 . Japan ' s steel industry rationalisation plan is aimed at cutting production capacity sharply over the next few years .
+Labels:
+acq
+Topics:
+(u'steel,usx,price', 0.40664743504205336)
+13
+CHINA INDUSTRIAL OUTPUT RISES IN FIRST QUARTER China ' s industrial output rose 14 . 1 pct in the first quarter of 1987 against the same 1986 period , the People ' s Daily said . Its overseas edition said the growth rate , which compares with a target of seven pct for the whole of 1987 , was " rather high " but the base in the first quarter of 1986 was on the low side . Industrial output grew 4 . 4 pct in the first quarter of 1986 . It said China ' s industrial production this year has been normal but product quality and efficiency need further improvement . It gave no further details .
+Labels:
+ipi
+Topics:
+(u'china,chinese,paper', 0.20229447388720334)
+(u'january,industrial,december', 0.18792229635555155)
+(u'quarter,first', 0.22268244128171855)
+28
+THAI ZINC EXPORTS FALL IN MARCH Thai zinc ingot exports fell to 882 tonnes in March from 1 , 764 in February and 3 , 008 in March 1986 , the Mineral Resources Department said . A spokesman for Padaeng Industry Co Ltd , the country ' s sole exporter , attributed the decline to the company ' s lower stocks , which averaged 5 , 000 tonnes in the first quarter against 16 , 000 tonnes in late 1985 when it began exporting . The department said major buyers included China , Japan , the Philippines , South Korea , Singapore and Taiwan . Thailand exported 4 , 842 tonnes of zinc ingots during the first quarter , down from 14 , 937 a year ago .
+Labels:
+zinc
+Topics:
+(u'tonne,west,german', 0.1023690706485455)
+(u'quarter,first', 0.10812907860932409)
+(u'rice,tonne,thailand', 0.15284333765008554)
+41
+BANK OF JAPAN INTERVENES SOON AFTER TOKYO OPENING The Bank of Japan bought a small amount of dollars shortly after the opening at around 145 . 30 yen , dealers said . The central bank intervened as a medium - sized trading house sold dollars , putting pressure on the U . S . Currency , they said . The dollar was also supported by a major electrical consumer goods company , which was a speculative dollar buyer at around 145 . 25 yen , they added . The dollar opened at 145 . 33 yen against 145 . 60 / 70 in New York and 145 . 25 at the close here yesterday .
+Labels:
+dlr
+money-fx
+yen
+Topics:
+(u'dollar,yen,dealer', 0.36760521399660462)
+0.5
+Topic coverage: 0.977777777778
+Current loss is: 5.09788131706e-06
+Current loss is: 4.93946219795e-06
+Current loss is: 4.87207909528e-06
+Current loss is: 4.83213558045e-06
+Current loss is: 4.80391466747e-06
+Current loss is: 4.78242174276e-06
+Current loss is: 4.76577935406e-06
+Current loss is: 4.75266554676e-06
+Current loss is: 4.74197549323e-06
+Current loss is: 4.73275296223e-06
+Current loss is: 4.72440856245e-06
+Current loss is: 4.71734102827e-06
+Current loss is: 4.71225050269e-06
+Current loss is: 4.70872531113e-06
+Current loss is: 4.70612732939e-06
+Current loss is: 4.70410633116e-06
+Current loss is: 4.70247290955e-06
+Current loss is: 4.70111142512e-06
+Current loss is: 4.69994811084e-06
+Current loss is: 4.69893094871e-06
+Current loss is: 4.69801916071e-06
+Current loss is: 4.69718231599e-06
+Current loss is: 4.69639666754e-06
+Current loss is: 4.69564202353e-06
+Current loss is: 4.69490255451e-06
+Current loss is: 4.6941693083e-06
+Current loss is: 4.69344160889e-06
+Current loss is: 4.69272709191e-06
+Current loss is: 4.69204626136e-06
+Current loss is: 4.69142000401e-06
+Average similarity: 0.0989921782252
+[(0.286, u'palm-oil', u'palm,oil,tonne'),
+ (0.272, u'rubber', u'rubber,pact,price'),
+ (0.264, u'orange', u'orange,gallon,florida'),
+ (0.256, u'tin', u'tin,miner,itc'),
+ (0.253, u'cotton', u'cotton,bale,pakistan'),
+ (0.25, u'lei', u'index,indicator,december'),
+ (0.239, u'wpi', u'pct,price,february'),
+ (0.239, u'gold', u'gold,ounce,ton'),
+ (0.235, u'ipi', u'january,pct,industrial'),
+ (0.234, u'cocoa', u'cocoa,buffer,icco'),
+ (0.232, u'alum', u'aluminium,smelter,aluminum'),
+ (0.226, u'cpi', u'pct,inflation,february'),
+ (0.223, u'copper', u'copper,mine,fire'),
+ (0.221, u'jobs', u'unemployment,february,january'),
+ (0.209, u'carcass', u'beef,meat,japan'),
+ (0.201, u'gnp', u'pct,growth,year'),
+ (0.194, u'rice', u'rice,price,agriculture'),
+ (0.183, u'iron-steel', u'steel,said,industry'),
+ (0.173, u'wheat', u'wheat,tonne,department'),
+ (0.172, u'sugar', u'sugar,tonne,trader'),
+ (0.169, u'coffee', u'coffee,quota,ico'),
+ (0.167, u'hog', u'ago,hog,cattle'),
+ (0.164, u'barley', u'barley,tonne,ecus'),
+ (0.15, u'money-supply', u'billion,money,bank'),
+ (0.148, u'soybean', u'soybean,loan,usda'),
+ (0.147, u'corn', u'corn,tonne,usda'),
+ (0.147, u'trade', u'trade,japan,japanese'),
+ (0.14, u'heat', u'contract,sun,heating'),
+ (0.14, u'nat-gas', u'gas,natural,cubic'),
+ (0.139, u'dlr', u'dollar,yen,dealer'),
+ (0.129, u'veg-oil', u'tax,fat,oil'),
+ (0.126, u'fuel', u'sulphur,fuel,pct'),
+ (0.125, u'bop', u'billion,deficit,surplus'),
+ (0.123, u'interest', u'rate,bank,pct'),
+ (0.117, u'reserves', u'billion,reserve,franc'),
+ (0.113, u'lead', u'smelter,zinc,ton'),
+ (0.113, u'crude', u'oil,opec,barrel'),
+ (0.109, u'potato', u'acre,per,estimated'),
+ (0.108, u'sunseed', u'hectare,area,rain'),
+ (0.108, u'yen', u'yen,miyazawa,japan'),
+ (0.106, u'grain', u'grain,tonne,crop'),
+ (0.097, u'ship', u'iran,gulf,iranian'),
+ (0.095, u'tea', u'tea,pakistan,import'),
+ (0.094, u'housing', u'unit,family,january'),
+ (0.079, u'dmk', u'mark,bank,lira'),
+ (0.079, u'meal-feed', u'tonne,season,meal'),
+ (0.078, u'gas', u'cent,ltd,singapore'),
+ (0.073, u'pet-chem', u'chemical,dow,pound'),
+ (0.067, u'money-fx', u'stg,bank,money'),
+ (0.067, u'livestock', u'ccc,cattle,credit')]
+Numer of topics resolved: 41
+29
+EC SUGAR TENDER HARD TO PREDICT - LONDON TRADE The outcome of today ' s European Community ( EC ) white sugar tender is extremely difficult to predict after last week ' s substantial award of 102 , 350 tonnes at the highest ever rebate of 46 . 864 European currency units ( Ecus ) per 100 kilos , traders said . Some said they believed the tonnage would probably be smaller , at around 60 , 000 tonnes , but declined to give a view on the likely restitution . Last week , the European Commission accepted 785 , 000 tonnes of sugar into intervention by operators protesting about low rebates . This might be a determining factor in today ' s result , they added .
+Labels:
+sugar
+Topics:
+(u'barley,tonne,ecus', 0.14568535831585572)
+(u'sugar,tonne,trader', 0.2280893394400029)
+38
+NIPPON STEEL DENIES CHINA SEEKING JAPANESE PLANTS Nippon Steel Corp & lt ; NSTC . T > denied local newspaper reports that China has been seeking to buy steel plants from Japanese firms which plan to suspend output under the recently announced rationalisation program . The Mainichi Shimbun quoted Nippon Steel as saying that China ' s State Planning Commission and some Chinese firms have asked Japanese makers to sell them steel works and rolling mills to expand steelmaking cheaply . It named no sources . A Nippon Steel spokesman told Reuters that China has made no such official request , and the company was not considering such sales at the moment . But Mainichi quoted Nippon Steel officials as saying if prices are reasonable , they would export their used mills to China . The paper said China ' s crude steel output totalled 52 mln tonnes in calendar 1986 and that it plans to increase to 80 mln by 1996 . Japan ' s steel industry rationalisation plan is aimed at cutting production capacity sharply over the next few years .
+Labels:
+acq
+Topics:
+(u'said,share,company', 0.013969023556828027)
+13
+CHINA INDUSTRIAL OUTPUT RISES IN FIRST QUARTER China ' s industrial output rose 14 . 1 pct in the first quarter of 1987 against the same 1986 period , the People ' s Daily said . Its overseas edition said the growth rate , which compares with a target of seven pct for the whole of 1987 , was " rather high " but the base in the first quarter of 1986 was on the low side . Industrial output grew 4 . 4 pct in the first quarter of 1986 . It said China ' s industrial production this year has been normal but product quality and efficiency need further improvement . It gave no further details .
+Labels:
+ipi
+Topics:
+(u'january,pct,industrial', 0.33832987484191523)
+28
+THAI ZINC EXPORTS FALL IN MARCH Thai zinc ingot exports fell to 882 tonnes in March from 1 , 764 in February and 3 , 008 in March 1986 , the Mineral Resources Department said . A spokesman for Padaeng Industry Co Ltd , the country ' s sole exporter , attributed the decline to the company ' s lower stocks , which averaged 5 , 000 tonnes in the first quarter against 16 , 000 tonnes in late 1985 when it began exporting . The department said major buyers included China , Japan , the Philippines , South Korea , Singapore and Taiwan . Thailand exported 4 , 842 tonnes of zinc ingots during the first quarter , down from 14 , 937 a year ago .
+Labels:
+zinc
+Topics:
+(u'loss', 0.0011883915675240306)
+41
+BANK OF JAPAN INTERVENES SOON AFTER TOKYO OPENING The Bank of Japan bought a small amount of dollars shortly after the opening at around 145 . 30 yen , dealers said . The central bank intervened as a medium - sized trading house sold dollars , putting pressure on the U . S . Currency , they said . The dollar was also supported by a major electrical consumer goods company , which was a speculative dollar buyer at around 145 . 25 yen , they added . The dollar opened at 145 . 33 yen against 145 . 60 / 70 in New York and 145 . 25 at the close here yesterday .
+Labels:
+dlr
+money-fx
+yen
+Topics:
+(u'dollar,yen,dealer', 0.31240987710500651)
+0.8
+Topic coverage: 1.0
+Current loss is: 5.06687326476e-06
+Current loss is: 4.9199680997e-06
+Current loss is: 4.88585840324e-06
+Current loss is: 4.86898617489e-06
+Current loss is: 4.85813018083e-06
+Current loss is: 4.850327124e-06
+Current loss is: 4.84406617595e-06
+Current loss is: 4.83924953776e-06
+Current loss is: 4.83612060857e-06
+Current loss is: 4.8339582869e-06
+Current loss is: 4.83214555547e-06
+Current loss is: 4.83024354738e-06
+Current loss is: 4.82815374242e-06
+Current loss is: 4.82647979597e-06
+Current loss is: 4.82539642257e-06
+Current loss is: 4.82462177184e-06
+Current loss is: 4.8240024215e-06
+Current loss is: 4.82348564472e-06
+Current loss is: 4.82304126081e-06
+Average similarity: 0.16016046966
+[(0.522, u'lei', u'index,indicator,pct'),
+ (0.506, u'wpi', u'pct,price,wholesale'),
+ (0.376, u'tin', u'tin,itc,tonne'),
+ (0.368, u'cpi', u'pct,february,inflation'),
+ (0.362, u'palm-oil', u'palm,oil,tonne'),
+ (0.36, u'rubber', u'rubber,inra,pact'),
+ (0.349, u'ipi', u'pct,industrial,january'),
+ (0.347, u'orange', u'orange,duty,gallon'),
+ (0.313, u'zinc', u'zinc,lead,tonne'),
+ (0.311, u'coconut', u'coconut,philippine,bill'),
+ (0.297, u'cotton', u'cotton,bale,crop'),
+ (0.291, u'heat', u'heating,oil,gallon'),
+ (0.274, u'l-cattle', u'cattle,analyst,marketing'),
+ (0.267, u'jobs', u'unemployment,february,pct'),
+ (0.258, u'copper', u'copper,mine,said'),
+ (0.254, u'rice', u'rice,thailand,tonne'),
+ (0.244, u'carcass', u'beef,meat,japan'),
+ (0.236, u'alum', u'aluminium,smelter,aluminum'),
+ (0.231, u'gold', u'gold,ounce,mine'),
+ (0.23, u'potato', u'acre,estimated,per'),
+ (0.228, u'gnp', u'pct,growth,year'),
+ (0.227, u'hog', u'ago,hog,versus'),
+ (0.227, u'money-supply', u'billion,dlrs,money'),
+ (0.223, u'gas', u'gasoline,bpd,mln'),
+ (0.219, u'housing', u'unit,housing,family'),
+ (0.213, u'silver', u'silver,ounce,dividend'),
+ (0.212, u'soybean', u'soybean,tonne,loan'),
+ (0.206, u'iron-steel', u'steel,said,usx'),
+ (0.205, u'fuel', u'sulphur,fuel,pct'),
+ (0.204, u'barley', u'barley,tonne,ecus'),
+ (0.2, u'cocoa', u'cocoa,buffer,icco'),
+ (0.196, u'veg-oil', u'tax,oil,fat'),
+ (0.178, u'soy-oil', u'tonne,season,week'),
+ (0.178, u'reserves', u'billion,reserve,foreign'),
+ (0.177, u'sunseed', u'rain,harvest,hectare'),
+ (0.173, u'sun-oil', u'oil,egypt,tender'),
+ (0.171, u'yen', u'yen,japan,dollar'),
+ (0.165, u'lead', u'smelter,local,worker'),
+ (0.161, u'bop', u'billion,deficit,surplus'),
+ (0.159, u'dmk', u'lira,mark,set'),
+ (0.157, u'wheat', u'wheat,tonne,export'),
+ (0.156, u'tea', u'tea,soviet,india'),
+ (0.153, u'soy-meal', u'future,meal,import'),
+ (0.153, u'livestock', u'cattle,dairy,head'),
+ (0.152, u'dlr', u'dollar,yen,dealer'),
+ (0.151, u'nat-gas', u'gas,natural,cubic'),
+ (0.146, u'rape-oil', u'cargo,tonne,india'),
+ (0.144, u'corn', u'corn,tonne,usda'),
+ (0.14, u'rand', u'rand,africa,financial'),
+ (0.14, u'trade', u'trade,japan,japanese')]
+Numer of topics resolved: 62
+29
+EC SUGAR TENDER HARD TO PREDICT - LONDON TRADE The outcome of today ' s European Community ( EC ) white sugar tender is extremely difficult to predict after last week ' s substantial award of 102 , 350 tonnes at the highest ever rebate of 46 . 864 European currency units ( Ecus ) per 100 kilos , traders said . Some said they believed the tonnage would probably be smaller , at around 60 , 000 tonnes , but declined to give a view on the likely restitution . Last week , the European Commission accepted 785 , 000 tonnes of sugar into intervention by operators protesting about low rebates . This might be a determining factor in today ' s result , they added .
+Labels:
+sugar
+Topics:
+(u'sugar,tonne,trader', 0.197316875901271)
+38
+NIPPON STEEL DENIES CHINA SEEKING JAPANESE PLANTS Nippon Steel Corp & lt ; NSTC . T > denied local newspaper reports that China has been seeking to buy steel plants from Japanese firms which plan to suspend output under the recently announced rationalisation program . The Mainichi Shimbun quoted Nippon Steel as saying that China ' s State Planning Commission and some Chinese firms have asked Japanese makers to sell them steel works and rolling mills to expand steelmaking cheaply . It named no sources . A Nippon Steel spokesman told Reuters that China has made no such official request , and the company was not considering such sales at the moment . But Mainichi quoted Nippon Steel officials as saying if prices are reasonable , they would export their used mills to China . The paper said China ' s crude steel output totalled 52 mln tonnes in calendar 1986 and that it plans to increase to 80 mln by 1996 . Japan ' s steel industry rationalisation plan is aimed at cutting production capacity sharply over the next few years .
+Labels:
+acq
+Topics:
+(u'share,said,company', 0.010129917067950406)
+13
+CHINA INDUSTRIAL OUTPUT RISES IN FIRST QUARTER China ' s industrial output rose 14 . 1 pct in the first quarter of 1987 against the same 1986 period , the People ' s Daily said . Its overseas edition said the growth rate , which compares with a target of seven pct for the whole of 1987 , was " rather high " but the base in the first quarter of 1986 was on the low side . Industrial output grew 4 . 4 pct in the first quarter of 1986 . It said China ' s industrial production this year has been normal but product quality and efficiency need further improvement . It gave no further details .
+Labels:
+ipi
+Topics:
+(u'quarter,first,third', 0.18243984308810826)
+(u'pct,industrial,january', 0.33491428733992812)
+28
+THAI ZINC EXPORTS FALL IN MARCH Thai zinc ingot exports fell to 882 tonnes in March from 1 , 764 in February and 3 , 008 in March 1986 , the Mineral Resources Department said . A spokesman for Padaeng Industry Co Ltd , the country ' s sole exporter , attributed the decline to the company ' s lower stocks , which averaged 5 , 000 tonnes in the first quarter against 16 , 000 tonnes in late 1985 when it began exporting . The department said major buyers included China , Japan , the Philippines , South Korea , Singapore and Taiwan . Thailand exported 4 , 842 tonnes of zinc ingots during the first quarter , down from 14 , 937 a year ago .
+Labels:
+zinc
+Topics:
+(u'zinc,lead,tonne', 0.52248316058635424)
+41
+BANK OF JAPAN INTERVENES SOON AFTER TOKYO OPENING The Bank of Japan bought a small amount of dollars shortly after the opening at around 145 . 30 yen , dealers said . The central bank intervened as a medium - sized trading house sold dollars , putting pressure on the U . S . Currency , they said . The dollar was also supported by a major electrical consumer goods company , which was a speculative dollar buyer at around 145 . 25 yen , they added . The dollar opened at 145 . 33 yen against 145 . 60 / 70 in New York and 145 . 25 at the close here yesterday .
+Labels:
+dlr
+money-fx
+yen
+Topics:
+(u'dollar,yen,dealer', 0.31548168277421307)
