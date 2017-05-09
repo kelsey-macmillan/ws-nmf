@@ -1,16 +1,15 @@
 from src.model import ws_nmf
 from src.features import tfidf
 from src.utils.utils import flatten
-from src.utils.examples import print_examples
+from src.utils.pubmed_import import import_pubmed_data
 from src.utils.post_processing import *
 import pprint
 import pandas as pd
-from nltk.corpus import reuters
-from collections import defaultdict, Counter
+from collections import defaultdict,  Counter
 import random
 
 
-def main(docs, labels, supervision_rate):
+def main(docs, labels, all_labels, supervision_rate):
 
     # create dictionaries {label: label_id} and {label_id: label}
     label_to_id_dict = {v: n for n, v in enumerate(all_labels)}
@@ -37,11 +36,13 @@ def main(docs, labels, supervision_rate):
     print 'Topic coverage: %s' % topic_coverage
 
     # Vectorize
+    print 'vectorizing...'
     tfidf_vectorizer = tfidf.Vectorizer(vocab_size=2000)
     tfidf_vectorizer.fit(docs)
     doc_term_matrix, terms = tfidf_vectorizer.transform(docs)
 
     # Factorize (weakly supervised)
+    print 'running ts-nmf....'
     ws_nmf_model = ws_nmf.Model(doc_term_matrix, label_ids_sub, K=len(all_labels))
     ws_nmf_model.train(max_iter=30)
     doc_topic_matrix_ws = ws_nmf_model.W
@@ -59,9 +60,11 @@ def main(docs, labels, supervision_rate):
             doc_to_label[doc_ind].append((label, 1))
 
     # Compute topic to label similarity matrix
+    print 'computing similarity matrix...'
     similarity_ws = compute_similarity_matrix(doc_to_topic_ws, doc_to_label)
 
     # Run hungarian algorithm
+    print 'running hungarian algorithm....'
     score_ws, sorted_matches_ws, matched_similarity_ws = match_similarity_matrix(similarity_ws)
 
     # Print assignment score
@@ -78,39 +81,33 @@ def main(docs, labels, supervision_rate):
     # Print number of toipcs resolved
     print 'Numer of topics resolved: %s' % n_resolved
 
-    # Print examples of documents
-    doc_ids = [29, 38, 13, 28, 41]
-    print_examples(doc_ids, docs, doc_to_label, doc_to_topic_ws, topic_to_term_dict_ws, id_to_label_dict)
-
     return topic_coverage, score_ws, n_resolved
+
 
 if __name__ == "__main__":
 
-    # Import data
-    file_ids = reuters.fileids()
-    all_labels = reuters.categories()
-    docs = [' '.join(reuters.words(file_id)) for file_id in file_ids]
-    labels = [reuters.categories(file_id) for file_id in file_ids]
+    docs, labels, all_labels= import_pubmed_data('data/medline17n0001.xml')
 
-    # Initialize results data frame
-    df = pd.DataFrame()
+    print 'running model...'
+    topic_coverage, avg_score, n_resolved = main(docs, labels, all_labels, 0.5)
+    print avg_score
+    print n_resolved
 
-    # Iterate
-    for supervision_rate in [0.1, 0.2, 0.5, 0.8]:
-        for rep in range(1):
 
-            print(supervision_rate)
-
-            # Run model
-            k, score, n_resolved = main(docs, labels, supervision_rate)
-
-            # Add iteration to data frame
-            data = {'supervision': supervision_rate,
-                    'topic_coverage': k,
-                    'avg_similarity': score,
-                    'n_topics_resolved': n_resolved,
-                    'rep': rep+1}
-            df = df.append(data, ignore_index=True)
-
-    df.to_csv('results/reuters_wsnmf.csv')
-    print df
+    # # Initialize results data frame
+    # df = pd.DataFrame()
+    #
+    # # Iterate
+    # for rep in range(30):
+    #
+    #     # Run model
+    #     avg_score, n_resolved = main(docs, labels)
+    #
+    #     # Add iteration to data frame
+    #     data =   {'avg_similarity': avg_score,
+    #             'n_topics_resolved': n_resolved,
+    #             'rep': rep+1}
+    #     df = df.append(data, ignore_index=True)
+    #
+    # df.to_csv('results/reuters_lda.csv')
+    # print df
