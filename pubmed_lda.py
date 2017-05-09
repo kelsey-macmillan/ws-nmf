@@ -82,7 +82,7 @@ if __name__ == "__main__":
     df = pd.DataFrame()
 
     # Iterate
-    for rep in range(3):
+    for rep in range(30):
 
         # Run model
         avg_score, n_resolved = main(docs, labels, all_labels)
