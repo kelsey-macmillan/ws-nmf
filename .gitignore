@@ -1,5 +1,9 @@
 # Code base
-#results/
+results/
+data/
+
+# R
+.Rhistory
 
 # Pycharm
 *.pyc
