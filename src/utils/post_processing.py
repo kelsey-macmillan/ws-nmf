@@ -1,6 +1,5 @@
 import numpy as np
 from collections import defaultdict
-import matplotlib.pyplot as plt
 import scipy as sp
 
 
@@ -170,22 +169,6 @@ def l1_similarity(list_1, list_2):
     # return 1 minus distance to get similarity
     return 1.0 - l1_dist
 
-
-def plot_maximal_strengths(strength_matrix, fname=None):
-    maximal_strengths = np.apply_along_axis(np.max, 1, strength_matrix)
-    fig = plt.figure()
-    plt.hist(np.log10(maximal_strengths[maximal_strengths != 0.0].flatten()))
-    plt.show()
-    if fname:
-        plt.savefig(fname)
-
-
-def plot_strengths(strength_matrix, fname=None):
-    fig = plt.figure()
-    plt.hist(np.log10(strength_matrix[(strength_matrix != 0.0) & (strength_matrix > 1e-12)].flatten()))
-    plt.show()
-    if fname:
-        plt.savefig(fname)
 
 
 
