@@ -41,7 +41,7 @@ def import_pubmed_data(pubmed_filename):
         keywords_counter[kw] += 1
 
     # Filter out keywords that occur less than 5 times
-    keywords_set = [kw for kw in keywords_counter.keys() if keywords_counter[kw] >= 50]
+    keywords_set = [kw for kw in keywords_counter.keys() if keywords_counter[kw] >= 100]
 
     for d in pubmed_dicts:
         d['keywords'] = filter(lambda x: x in keywords_set, d['keywords'])
@@ -52,6 +52,7 @@ def import_pubmed_data(pubmed_filename):
     print 'N unique keywords: %s' % len(keywords_set)
     print 'N docs: %s' % len(pubmed_dicts)
 
+
     # Create list of docs
     docs = [d['abstract'] for d in pubmed_dicts]
 
@@ -59,7 +60,7 @@ def import_pubmed_data(pubmed_filename):
     labels = [d['keywords'] for d in pubmed_dicts]
 
     # Create list of all unique labels
-    all_labels = list(keywords_set)
+    all_labels = list(set(flatten(labels)))
 
     return docs, labels, all_labels
 

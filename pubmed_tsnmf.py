@@ -88,26 +88,25 @@ if __name__ == "__main__":
 
     docs, labels, all_labels= import_pubmed_data('data/medline17n0001.xml')
 
-    print 'running model...'
-    topic_coverage, avg_score, n_resolved = main(docs, labels, all_labels, 0.5)
-    print avg_score
-    print n_resolved
+    # Initialize results data frame
+    df = pd.DataFrame()
 
+    # Iterate
+    for supervision_rate in [0.01, 0.1, 0.2, 0.5, 0.8]:
+        for rep in range(3):
 
-    # # Initialize results data frame
-    # df = pd.DataFrame()
-    #
-    # # Iterate
-    # for rep in range(30):
-    #
-    #     # Run model
-    #     avg_score, n_resolved = main(docs, labels)
-    #
-    #     # Add iteration to data frame
-    #     data =   {'avg_similarity': avg_score,
-    #             'n_topics_resolved': n_resolved,
-    #             'rep': rep+1}
-    #     df = df.append(data, ignore_index=True)
-    #
-    # df.to_csv('results/reuters_lda.csv')
-    # print df
+            print(supervision_rate)
+
+            # Run model
+            k, score, n_resolved = main(docs, labels, all_labels, supervision_rate)
+
+            # Add iteration to data frame
+            data = {'supervision': supervision_rate,
+                    'topic_coverage': k,
+                    'avg_similarity': score,
+                    'n_topics_resolved': n_resolved,
+                    'rep': rep+1}
+            df = df.append(data, ignore_index=True)
+
+    df.to_csv('results/pubmed_tsnmf.csv')
+    print df

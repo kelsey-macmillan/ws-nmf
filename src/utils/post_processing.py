@@ -37,17 +37,17 @@ def create_doc_to_topic_dict(doc_topic_matrix, cutoff=1e-6):
     """
 
     # first, normalize doc_topic matrix
-    doc_topic_matrix /= np.max(doc_topic_matrix)
+    doc_topic_matrix_norm = doc_topic_matrix/np.max(doc_topic_matrix)
 
     doc_dict = defaultdict(dict)  # initialize dictionary
 
-    for doc_ind in range(doc_topic_matrix.shape[0]):
+    for doc_ind in range(doc_topic_matrix_norm.shape[0]):
 
         # get row in matrix
-        doc_row = doc_topic_matrix[doc_ind, :]
+        doc_row = doc_topic_matrix_norm[doc_ind, :]
 
         # get topic indices and strength with strength above cutoff
-        topic_indices = np.array(range(doc_topic_matrix.shape[1]))[doc_row > cutoff]
+        topic_indices = np.array(range(doc_topic_matrix_norm.shape[1]))[doc_row > cutoff]
         topic_strengths = doc_row[doc_row > cutoff]
 
         # add to dictionary

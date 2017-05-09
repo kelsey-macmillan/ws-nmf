@@ -73,26 +73,20 @@ if __name__ == "__main__":
 
     docs, labels, all_labels= import_pubmed_data('data/medline17n0001.xml')
 
-    print 'running model...'
-    avg_score, n_resolved = main(docs, labels, all_labels)
-    print avg_score
-    print n_resolved
+    # Initialize results data frame
+    df = pd.DataFrame()
 
+    # Iterate
+    for rep in range(3):
 
-    # # Initialize results data frame
-    # df = pd.DataFrame()
-    #
-    # # Iterate
-    # for rep in range(30):
-    #
-    #     # Run model
-    #     avg_score, n_resolved = main(docs, labels)
-    #
-    #     # Add iteration to data frame
-    #     data =   {'avg_similarity': avg_score,
-    #             'n_topics_resolved': n_resolved,
-    #             'rep': rep+1}
-    #     df = df.append(data, ignore_index=True)
-    #
-    # df.to_csv('results/reuters_lda.csv')
-    # print df
+        # Run model
+        avg_score, n_resolved = main(docs, labels, all_labels)
+
+        # Add iteration to data frame
+        data = {'avg_similarity': avg_score,
+                'n_topics_resolved': n_resolved,
+                'rep': rep+1}
+        df = df.append(data, ignore_index=True)
+
+    df.to_csv('results/pubmed_nmf.csv')
+    print df
