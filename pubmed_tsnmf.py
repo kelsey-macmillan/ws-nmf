@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
     # Iterate
     for supervision_rate in [0.01, 0.1, 0.2, 0.5, 0.8]:
-        for rep in range(3):
+        for rep in range(30):
 
             print(supervision_rate)
 
