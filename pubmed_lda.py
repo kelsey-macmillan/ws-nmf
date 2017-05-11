@@ -73,16 +73,13 @@ if __name__ == "__main__":
 
     docs, labels, all_labels= import_pubmed_data('data/medline17n0001.xml')
 
-    print 'running model...'
-    avg_score, n_resolved = main(docs, labels, all_labels)
-    print avg_score
-    print n_resolved
-
     # Initialize results data frame
     df = pd.DataFrame()
 
     # Iterate
     for rep in range(30):
+
+        print(rep)
 
         # Run model
         avg_score, n_resolved = main(docs, labels, all_labels)
