@@ -31,12 +31,12 @@ class Model:
         """
         L = np.ones((len(self.labels), self.K)) * 1  # initialize matrix of ones
 
-        for document_index, topic_index_list in enumerate(self.labels):
-            if len(topic_index_list) > 0:  # if document has been labeled
-                L[document_index, :] = 0  # set all labels to zero for that doc initially
-
-                for topic_index in topic_index_list:
-                    L[document_index, topic_index] = 1  # set labeled topic / document to 1
+        # for document_index, topic_index_list in enumerate(self.labels):
+        #     if len(topic_index_list) > 0:  # if document has been labeled
+        #         L[document_index, :] = 0  # set all labels to zero for that doc initially
+        #
+        #         for topic_index in topic_index_list:
+        #             L[document_index, topic_index] = 1  # set labeled topic / document to 1
         return L
 
     def initialize_H(self):
