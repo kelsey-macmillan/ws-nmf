@@ -40,7 +40,7 @@ def import_pubmed_data(pubmed_filename):
     for kw in flatten([d['keywords'] for d in pubmed_dicts]):
         keywords_counter[kw] += 1
 
-    # Filter out keywords that occur less than 5 times
+    # Filter out keywords that occur less than 100 times
     keywords_set = [kw for kw in keywords_counter.keys() if keywords_counter[kw] >= 100]
 
     for d in pubmed_dicts:

@@ -92,7 +92,7 @@ if __name__ == "__main__":
     df = pd.DataFrame()
 
     # Iterate
-    for supervision_rate in [0.01, 0.1, 0.2, 0.5, 0.8]:
+    for supervision_rate in [0.05]:
         for rep in range(30):
 
             print(supervision_rate)
@@ -108,5 +108,5 @@ if __name__ == "__main__":
                     'rep': rep+1}
             df = df.append(data, ignore_index=True)
 
-    df.to_csv('results/pubmed_tsnmf.csv')
+    df.to_csv('results/pubmed_tsnmf_05.csv')
     print df

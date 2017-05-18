@@ -72,12 +72,12 @@ class Model:
         """Function to create matrix to re-weight error function"""
         weights = np.ones(self.V.shape)
 
-        # n_labeled = sum([1 if len(label_list) > 0 else 0 for label_list in self.labels])
-        #
-        # for document_index, topic_index_list in enumerate(self.labels):
-        #     if len(topic_index_list) > 0:  # if document has been labeled
-        #         # weight the document more heavily (inverse freq)
-        #         weights[document_index, :] = float(len(self.labels)) / n_labeled
+        n_labeled = sum([1 if len(label_list) > 0 else 0 for label_list in self.labels])
+
+        for document_index, topic_index_list in enumerate(self.labels):
+            if len(topic_index_list) > 0:  # if document has been labeled
+                # weight the document more heavily (inverse freq)
+                weights[document_index, :] = float(len(self.labels)) / n_labeled
 
         return weights
 

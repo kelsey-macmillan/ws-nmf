@@ -25,8 +25,11 @@ def main(docs, labels, supervision_rate):
     # need to transform 'labels' from strings to indices
     label_ids = [[label_to_id_dict[label] for label in label_list] for label_list in labels]
 
-    # subset list of doc labels at given rate
-    label_ids_sub = [label_id_list if random.uniform(0, 1) < supervision_rate else [] for label_id_list in label_ids]
+    # subset list of doc labels at given rate and exclude example docs
+    # example doc ids
+    doc_ids = [29, 38, 13, 28, 41]
+    label_ids_sub = [label_id_list if (random.uniform(0, 1) < supervision_rate) and (doc_id not in doc_ids)
+                     else [] for doc_id, label_id_list in enumerate(label_ids)]
 
     # calculate how many topics are captured
     known_topic_counter = Counter()
@@ -79,7 +82,6 @@ def main(docs, labels, supervision_rate):
     print 'Numer of topics resolved: %s' % n_resolved
 
     # Print examples of documents
-    doc_ids = [29, 38, 13, 28, 41]
     print_examples(doc_ids, docs, doc_to_label, doc_to_topic_ws, topic_to_term_dict_ws, id_to_label_dict)
 
     return topic_coverage, score_ws, n_resolved
@@ -96,7 +98,7 @@ if __name__ == "__main__":
     df = pd.DataFrame()
 
     # Iterate
-    for supervision_rate in [0.1, 0.2, 0.5, 0.8]:
+    for supervision_rate in [0.2, 0.5, 0.8]:
         for rep in range(1):
 
             print(supervision_rate)
